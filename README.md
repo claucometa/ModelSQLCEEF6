@@ -10,5 +10,5 @@ Changes:
 
 Hope you enjoy.
 
-The link to the originals:
+Link to the originals:
 http://www.codeproject.com/Articles/680116/Code-First-with-SQL-CE
