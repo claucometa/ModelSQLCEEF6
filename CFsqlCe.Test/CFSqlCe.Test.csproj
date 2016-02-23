@@ -111,10 +111,6 @@
       <Project>{5DF32BB8-C3F5-4D72-AF7A-41DECE25511B}</Project>
       <Name>CFSqlCe.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CFSqlCe.Services\CFSqlCe.Services.csproj">
-      <Project>{e393569c-cf62-4099-94f8-0cbde39f4410}</Project>
-      <Name>CFSqlCe.Services</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
