@@ -1,4 +1,4 @@
-# Model DDD + SQLCE + EF6
+# Code First + DDD + SQLCE + EF6
 
 This is a DDD model to start a project using SQL Compact (SQL CE) with Entity Framework 6. 
 This is an adaptation from the original code developed by Damijan Vodopivec in 9 Nov 2013.
