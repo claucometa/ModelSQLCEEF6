@@ -21,6 +21,8 @@ namespace CFSqlCe.Test
             var service = new ServiceFilmTitle();
             service.Add(actionGenere);
             service.Save();
+            Console.Write(db.FilmTitles.Count());
+            Console.ReadKey();
             return;
 
             // we found the producer
