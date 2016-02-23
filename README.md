@@ -5,7 +5,7 @@ I have made some changes to the original model developed by Damijan Vodopivec in
 
 Changes:
 * Crud based repository included
-* Changed the aproach of mapping the entities from data annotations to separate classes.
+* Changed the aproach of mapping the entities from data annotations to separated classes.
 
 Hope you enjoy.
 
