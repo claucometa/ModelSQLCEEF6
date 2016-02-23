@@ -15,7 +15,7 @@ namespace CFSqlCe.Dal
             Database.SetInitializer<DvdContext>(new DbInitializer());
 
             using (DvdContext db = new DvdContext())
-                db.Database.Initialize(false);
+                db.Database.Initialize(true);
         }
 
         public DbSet<Actor> Actors { get; set; }
@@ -34,9 +34,7 @@ namespace CFSqlCe.Dal
         }
     }
 
-
-
-    class DbInitializer : DropCreateDatabaseAlways<DvdContext>
+    class DbInitializer : CreateDatabaseIfNotExists<DvdContext>
     {
         protected override void Seed(DvdContext context)
         {
