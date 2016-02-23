@@ -10,7 +10,7 @@ namespace CFSqlCe.Dal.Services
     {
         CrudRepo<Actor> repo = new CrudRepo<Actor>();
 
-        public void Add()
+        public void Add_AngelinaJolie()
         {
             var f = new Actor()
            {
@@ -30,6 +30,11 @@ namespace CFSqlCe.Dal.Services
         public void Save()
         {
             repo.Save();
+        }
+
+        public IEnumerable<Actor> GetAll()
+        {
+            return repo.GetAll();
         }
     }
 }

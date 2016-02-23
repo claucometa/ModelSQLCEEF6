@@ -1,9 +1,6 @@
-﻿using CFSqlCe.Dal;
-using CFSqlCe.Services;
+﻿using CFSqlCe.Dal.Services;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace CFSqlCe.Test
 {
@@ -13,11 +10,10 @@ namespace CFSqlCe.Test
     {
         static void Main(string[] args)
         {
-            var db = MyContext.db;
             var service = new ServiceActor();
-            for (int i = 0; i < 3; i++) service.Add();    
+            for (int i = 0; i < 10; i++) service.Add_AngelinaJolie();    
             service.Save();
-            Console.Write(db.Actors.Count());
+            Console.Write(service.GetAll().Count());
             Console.ReadKey();            
         }
     }

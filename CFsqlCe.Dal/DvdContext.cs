@@ -8,12 +8,13 @@ using CFSqlCe.Domain.Model;
 
 namespace CFSqlCe.Dal
 {
-    public class HollywooContext : DbContext
+    public class DvdContext : DbContext
     {
-        static HollywooContext()
+        static DvdContext()
         {
-            Database.SetInitializer<HollywooContext>(new DbInitializer());
-            using (HollywooContext db = new HollywooContext())
+            Database.SetInitializer<DvdContext>(new DbInitializer());
+
+            using (DvdContext db = new DvdContext())
                 db.Database.Initialize(false);
         }
 
@@ -23,23 +24,22 @@ namespace CFSqlCe.Dal
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             // Settings
-           // modelBuilder.Conventions.Remove<System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention>();
-         //   modelBuilder.Properties<string>().Configure(p => p.HasColumnType("varchar"));
+            // modelBuilder.Conventions.Remove<System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention>();
+            // modelBuilder.Properties<string>().Configure(p => p.HasColumnType("varchar"));
 
             modelBuilder.Configurations.Add(new ActorMap());
             modelBuilder.Configurations.Add(new ActorRoleMap());
-            
+
             base.OnModelCreating(modelBuilder);
         }
     }
 
-    
 
-    class DbInitializer : DropCreateDatabaseAlways<HollywooContext>
+
+    class DbInitializer : DropCreateDatabaseAlways<DvdContext>
     {
-        protected override void Seed(HollywooContext context)
+        protected override void Seed(DvdContext context)
         {
-            // insert some file generes
             base.Seed(context);
         }
     }

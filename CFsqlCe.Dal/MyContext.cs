@@ -8,6 +8,6 @@ namespace CFSqlCe.Dal
 {
     public static class MyContext
     {
-        public static HollywooContext db = new HollywooContext();
+        public static DvdContext db = new DvdContext();
     }
 }
