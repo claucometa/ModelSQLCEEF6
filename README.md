@@ -1,7 +1,7 @@
 # Model DDD + SQLCE + EF6
 
 This is a DDD model to start a project using SQL Compact (SQL CE) with Entity Framework 6. 
-I have made some changes to the original model developed by Damijan Vodopivec in 9 Nov 2013.
+This is an adaptation from the original code developed by Damijan Vodopivec in 9 Nov 2013.
 
 Changes:
 * Eliminated most classes to simplify to the most, there's only two now: Actor and ActorRole.
