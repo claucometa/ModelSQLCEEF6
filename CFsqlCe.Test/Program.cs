@@ -11,9 +11,13 @@ namespace CFSqlCe.Test
         static void Main(string[] args)
         {
             var service = new ServiceActor();
+            Console.Write("Registros: ");
+            Console.WriteLine(service.GetAll().Count());
             for (int i = 0; i < 10; i++) service.Add_AngelinaJolie();    
             service.Save();
-            Console.Write(service.GetAll().Count());
+            Console.Write("Novos Registros: ");
+            Console.WriteLine(service.GetAll().Count());
+            Console.Write("...");
             Console.ReadKey();            
         }
     }
