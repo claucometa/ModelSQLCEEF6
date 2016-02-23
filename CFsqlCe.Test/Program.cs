@@ -15,7 +15,7 @@ namespace CFSqlCe.Test
         {
             var db = MyContext.db;
             var service = new ServiceActor();
-            service.Add();
+            for (int i = 0; i < 3; i++) service.Add();    
             service.Save();
             Console.Write(db.Actors.Count());
             Console.ReadKey();            

@@ -10,7 +10,7 @@ namespace CFSqlCe.Dal
     public class ViewRepo<T> : IViewRepo<T> where T : class
     {
         public DbSet<T> table;
-        public HollywoodContext db = MyContext.db;
+        public HollywooContext db = MyContext.db;
 
         public ViewRepo()
         {
