@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSqlCe.Model", "CFSqlCe.Model\CFSqlCe.Model.csproj", "{5DF32BB8-C3F5-4D72-AF7A-41DECE25511B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSqlCe.Domain", "CFSqlCe.Model\CFSqlCe.Domain.csproj", "{5DF32BB8-C3F5-4D72-AF7A-41DECE25511B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSqlCe.Dal", "CFsqlCe.Dal\CFSqlCe.Dal.csproj", "{EB4A49E2-FEB6-4FA9-89D8-F75ECA3299C3}"
 EndProject
@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{98F3A5
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSqlCe.Services", "CFSqlCe.Services\CFSqlCe.Services.csproj", "{E393569C-CF62-4099-94F8-0CBDE39F4410}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,16 @@ Global
 		{DA5C596E-471C-4215-AF92-E1127A113A2C}.Release|Mixed Platforms.Build.0 = Release|x86
 		{DA5C596E-471C-4215-AF92-E1127A113A2C}.Release|x86.ActiveCfg = Release|x86
 		{DA5C596E-471C-4215-AF92-E1127A113A2C}.Release|x86.Build.0 = Release|x86
+		{E393569C-CF62-4099-94F8-0CBDE39F4410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E393569C-CF62-4099-94F8-0CBDE39F4410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E393569C-CF62-4099-94F8-0CBDE39F4410}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E393569C-CF62-4099-94F8-0CBDE39F4410}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E393569C-CF62-4099-94F8-0CBDE39F4410}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E393569C-CF62-4099-94F8-0CBDE39F4410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E393569C-CF62-4099-94F8-0CBDE39F4410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E393569C-CF62-4099-94F8-0CBDE39F4410}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E393569C-CF62-4099-94F8-0CBDE39F4410}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E393569C-CF62-4099-94F8-0CBDE39F4410}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

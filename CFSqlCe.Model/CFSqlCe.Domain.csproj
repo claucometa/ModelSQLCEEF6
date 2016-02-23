@@ -56,13 +56,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Actor.cs" />
-    <Compile Include="FilmActorRole.cs" />
-    <Compile Include="FilmGenere.cs" />
-    <Compile Include="FilmTitle.cs" />
-    <Compile Include="Producer.cs" />
+    <Compile Include="Model\Actor.cs" />
+    <Compile Include="Model\ActorRole.cs" />
+    <Compile Include="Model\Mapping\ActorRole.cs" />
+    <Compile Include="Model\Mapping\Actor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Role.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
