@@ -4,8 +4,9 @@ This is a DDD model to start a project using SQL Compact (SQL CE) with Entity Fr
 I have made some changes to the original model developed by Damijan Vodopivec in 9 Nov 2013.
 
 Changes:
+* Eliminated most classes to simplify to the most, there's only two now: Actor and ActorRole.
 * Crud based repository included
-* Changed the aproach of mapping the entities from data annotations to separated classes.
+* Changed mapping from annotations to fluent api.
 
 Hope you enjoy.
 
