@@ -18,7 +18,8 @@ namespace CFSDDD.Winform
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             var z = MyContext.db.Settings.ToList();
-            MessageBox.Show("Deu certo!");
+
+            MessageBox.Show("Deu certo!\r\n\r\n" + MyContext.db.Database.Connection.ConnectionString);
         }
     }
 

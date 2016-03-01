@@ -13,8 +13,6 @@ namespace CFSDDD.Dal
         static CFSContext()
         {
             Database.SetInitializer<CFSContext>(new DbInitializer());
-           // using (var db = new CFSDDDContext("Data Source=D:/Db.sdf"))
-           //     db.Database.Initialize(false);
         }
 
         public CFSContext(string nameOrConnectionString)
@@ -22,14 +20,15 @@ namespace CFSDDD.Dal
         {         
         }
 
+        // Tables
         public DbSet<Setting> Settings { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             // Settings
             modelBuilder.Conventions.Remove<System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention>();
-            // modelBuilder.Properties<string>().Configure(p => p.HasColumnType("varchar"));
 
+            // Mapping
             modelBuilder.Configurations.Add(new SettingMap());
 
             base.OnModelCreating(modelBuilder);

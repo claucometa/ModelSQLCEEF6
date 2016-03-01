@@ -9,8 +9,9 @@ namespace CFSDDD.Dal
 
         static MyContext()
         {
+            // Code to create database in APPDATA Folder
             var appdata = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData).ToString();
-            appdata += "\\CFSDDD\\CFSDDD Analytics";
+            appdata += "\\CFSDDD\\Database";
             if (!Directory.Exists(appdata))
                 Directory.CreateDirectory(appdata);
             db = new CFSContext("Data Source=" + appdata + "\\data.sdf");
