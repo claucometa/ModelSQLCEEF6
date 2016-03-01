@@ -9,8 +9,8 @@ namespace CFSqlCe.Dal.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
-            ContextKey = "CFSqlCe.Dal.DvdContext";
+            AutomaticMigrationsEnabled = true;
+            ContextKey = "CFSqlCe.Dal.CFSContext";
         }
 
         protected override void Seed(CFSqlCe.Dal.CFSContext context)

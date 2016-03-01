@@ -12,8 +12,7 @@ namespace CFSqlCe.Test
     {
         static void Main(string[] args)
         {
-            // Define the parameters of your database
-            CFSContext.SetDataBaseOptions("D:/dbSuperTest.mdf");
+            // Define the datasource of the database.sdf in App.Config
 
             // Run this test to see if it works! 
             var x = MyContext.db.Settings.ToList();

@@ -18,20 +18,6 @@ namespace CFSqlCe.Dal
                 db.Database.Initialize(true);
         }
 
-        public CFSContext()
-            : base("Name=AppContext")
-        {
-            var databaseName = Properties.Settings.Default.file;
-            Database.Connection.ConnectionString = string.Format(Database.Connection.ConnectionString,
-                databaseName);
-        }
-
-        public static void SetDataBaseOptions(string file)
-        {
-            Properties.Settings.Default.file = file;
-            Properties.Settings.Default.Save();
-        }
-
         public DbSet<Setting> Settings { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
