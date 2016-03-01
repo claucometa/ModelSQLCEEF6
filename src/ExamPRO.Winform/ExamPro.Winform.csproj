@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17411611-383B-4E2A-9050-BE2807C1389A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExamPro.Winform</RootNamespace>
+    <AssemblyName>Nowa Analytics</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <PublishUrl>C:\Users\Claudio\Desktop\ExPro\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>35</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4910FBC64AAAB08654CE417C09700FB8A3621466</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ExamPro.UI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ExamPro.Winform.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\MySql.Data.6.9.7\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.9.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\MySql.Data.Entity.6.9.7\lib\net45\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License">
+      <HintPath>..\..\packages\Spire.PDF.3.5\lib\net40\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf">
+      <HintPath>..\..\packages\Spire.PDF.3.5\lib\net40\Spire.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.Services" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\AskPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AskPassword.Designer.cs">
+      <DependentUpon>AskPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmSettings.Designer.cs">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\FormExams.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frames\FormExams.Designer.cs">
+      <DependentUpon>FormExams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\Patients.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Frames\Patients.Designer.cs">
+      <DependentUpon>Patients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graphs\GraphRoot\GraphFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graphs\GraphRoot\GraphFrame.Designer.cs">
+      <DependentUpon>GraphFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graphs\GraphRoot\ChartTypes.cs" />
+    <Compile Include="Graphs\GraphRoot\GraphBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graphs\GraphRoot\GraphBase.Designer.cs">
+      <DependentUpon>GraphBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\PatientCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\PatientCard.Designer.cs">
+      <DependentUpon>PatientCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\SearchBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\SearchBox.Designer.cs">
+      <DependentUpon>SearchBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\NavButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\NavButton.Designer.cs">
+      <DependentUpon>NavButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\Repository.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Base\Repository.Designer.cs">
+      <DependentUpon>Repository.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\StickImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Base\StickImage.Designer.cs">
+      <DependentUpon>StickImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Background.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Background.Designer.cs">
+      <DependentUpon>Background.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ExamAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ExamAdd.Designer.cs">
+      <DependentUpon>ExamAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSinonimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSinonimo.Designer.cs">
+      <DependentUpon>FormSinonimo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GraphData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\GraphData.Designer.cs">
+      <DependentUpon>GraphData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\GraphSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Settings\GraphSettings.Designer.cs">
+      <DependentUpon>GraphSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PatientEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PatientEdit.Designer.cs">
+      <DependentUpon>PatientEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\FLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\FLayout.Designer.cs">
+      <DependentUpon>FLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\View.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Config.Designer.cs">
+      <DependentUpon>Config.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Laudos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Laudos.Designer.cs">
+      <DependentUpon>Laudos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base\FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Base\FormBase.Designer.cs">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graphs\ExamsGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graphs\ExamsGraph.Designer.cs">
+      <DependentUpon>ExamsGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graphs\LaudoGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graphs\LaudoGraph.Designer.cs">
+      <DependentUpon>LaudoGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Graphs\GraphRoot\MainGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Graphs\GraphRoot\MainGraph.Designer.cs">
+      <DependentUpon>MainGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyImages.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AskPassword.resx">
+      <DependentUpon>AskPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frames\FormExams.resx">
+      <DependentUpon>FormExams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frames\Patients.resx">
+      <DependentUpon>Patients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graphs\GraphRoot\GraphFrame.resx">
+      <DependentUpon>GraphFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graphs\GraphRoot\GraphBase.resx">
+      <DependentUpon>GraphBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\NavButton.resx">
+      <DependentUpon>NavButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\PatientCard.resx">
+      <DependentUpon>PatientCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\SearchBox.resx">
+      <DependentUpon>SearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\StickImage.resx">
+      <DependentUpon>StickImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\View.resx">
+      <DependentUpon>View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\Repository.resx">
+      <DependentUpon>Repository.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Background.resx">
+      <DependentUpon>Background.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ExamAdd.resx">
+      <DependentUpon>ExamAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSinonimo.resx">
+      <DependentUpon>FormSinonimo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GraphData.resx">
+      <DependentUpon>GraphData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\GraphSettings.resx">
+      <DependentUpon>GraphSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PatientEdit.resx">
+      <DependentUpon>PatientEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\FLayout.resx">
+      <DependentUpon>FLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Config.resx">
+      <DependentUpon>Config.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Laudos.resx">
+      <DependentUpon>Laudos.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Base\FormBase.resx">
+      <DependentUpon>FormBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graphs\ExamsGraph.resx">
+      <DependentUpon>ExamsGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graphs\LaudoGraph.resx">
+      <DependentUpon>LaudoGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graphs\GraphRoot\MainGraph.resx">
+      <DependentUpon>MainGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ExamPro.UI_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\ExamPro.Domain.Models.ChartData.datasource" />
+    <None Include="Properties\DataSources\ExamPro.Domain.Models.Exam.datasource" />
+    <None Include="Properties\DataSources\ExamPro.Domain.Models.Laudo.datasource" />
+    <None Include="Properties\DataSources\ExamPro.Domain.Models.Patient.datasource" />
+    <None Include="Properties\DataSources\ExamPro.Domain.Models.Setting.datasource" />
+    <None Include="Properties\DataSources\ExamPro.Domain.Models.Sinonimo.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\installMySQL.bat" />
+    <None Include="Resources\mexames.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <None Include="Resources\ok.png" />
+    <None Include="Resources\flatLaudo24.png" />
+    <None Include="Resources\flatAdd24.png" />
+    <None Include="Resources\flatSearch.png" />
+    <None Include="Resources\flatInfo.png" />
+    <None Include="Resources\flatFolder.png" />
+    <None Include="Resources\flatEdit.png" />
+    <None Include="Resources\flatDel.png" />
+    <None Include="Resources\flatAdd.png" />
+    <None Include="Resources\patient-2-icon.png" />
+    <None Include="Resources\lab-icon.png" />
+    <None Include="Resources\graph.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\background.jpg" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\femaleicon.png" />
+    <None Include="Resources\fexames.csv" />
+    <None Include="Resources\maleicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Claucometa\MyLibs\src\MyLibs\MyLibs.csproj">
+      <Project>{a7243516-da49-4d38-88fa-4e83b6c621a3}</Project>
+      <Name>MyLibs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExamPro.DataAcess\ExamPro.DataAccess.csproj">
+      <Project>{bfdaa3cd-c941-4f2c-aca1-bb2198f10746}</Project>
+      <Name>ExamPro.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExamPro.Domain\ExamPro.Domain.csproj">
+      <Project>{146275c3-dcb9-4931-b40d-247c1f3bf453}</Project>
+      <Name>ExamPro.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExamPro.Services\ExamPro.Services\ExamPro.Services.csproj">
+      <Project>{0a811ffd-3d02-4c79-bcef-21bc1ef0c628}</Project>
+      <Name>ExamPro.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExamPro.Utils\ExamPro.Utils\ExamPro.Utils.csproj">
+      <Project>{62ff07a8-0964-4f27-ab92-596cbd12ae36}</Project>
+      <Name>ExamPro.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

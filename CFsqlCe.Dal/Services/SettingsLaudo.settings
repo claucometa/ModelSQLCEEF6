@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ExamPro.Services" GeneratedClassName="SettingsLaudo">
+  <Profiles />
+  <Settings>
+    <Setting Name="Title" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Laudo {0}</Value>
+    </Setting>
+    <Setting Name="Min" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 192, 128</Value>
+    </Setting>
+    <Setting Name="Max" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">128, 255, 128</Value>
+    </Setting>
+    <Setting Name="Res" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+    <Setting Name="Area" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">MediumAquamarine</Value>
+    </Setting>
+    <Setting Name="Font" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
