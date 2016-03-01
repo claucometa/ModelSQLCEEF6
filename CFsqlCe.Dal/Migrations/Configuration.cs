@@ -5,7 +5,7 @@ namespace CFSqlCe.Dal.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<CFSqlCe.Dal.DvdContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<CFSqlCe.Dal.CFSContext>
     {
         public Configuration()
         {
@@ -13,7 +13,7 @@ namespace CFSqlCe.Dal.Migrations
             ContextKey = "CFSqlCe.Dal.DvdContext";
         }
 
-        protected override void Seed(CFSqlCe.Dal.DvdContext context)
+        protected override void Seed(CFSqlCe.Dal.CFSContext context)
         {
             //  This method will be called after migrating to the latest version.
 

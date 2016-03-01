@@ -16,10 +16,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{98F3A5
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSqlCe.Winform", "CFSqlCe.Winform\CFSqlCe.Winform.csproj", "{DD124CD5-792F-4272-8525-A7AD144FE782}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibs", "..\..\Claucometa\MyLibs\src\MyLibs\MyLibs.csproj", "{A7243516-DA49-4D38-88FA-4E83B6C621A3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,26 +56,6 @@ Global
 		{DA5C596E-471C-4215-AF92-E1127A113A2C}.Release|Mixed Platforms.Build.0 = Release|x86
 		{DA5C596E-471C-4215-AF92-E1127A113A2C}.Release|x86.ActiveCfg = Release|x86
 		{DA5C596E-471C-4215-AF92-E1127A113A2C}.Release|x86.Build.0 = Release|x86
-		{DD124CD5-792F-4272-8525-A7AD144FE782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD124CD5-792F-4272-8525-A7AD144FE782}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD124CD5-792F-4272-8525-A7AD144FE782}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{DD124CD5-792F-4272-8525-A7AD144FE782}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{DD124CD5-792F-4272-8525-A7AD144FE782}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{DD124CD5-792F-4272-8525-A7AD144FE782}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD124CD5-792F-4272-8525-A7AD144FE782}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD124CD5-792F-4272-8525-A7AD144FE782}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{DD124CD5-792F-4272-8525-A7AD144FE782}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{DD124CD5-792F-4272-8525-A7AD144FE782}.Release|x86.ActiveCfg = Release|Any CPU
-		{A7243516-DA49-4D38-88FA-4E83B6C621A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7243516-DA49-4D38-88FA-4E83B6C621A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7243516-DA49-4D38-88FA-4E83B6C621A3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{A7243516-DA49-4D38-88FA-4E83B6C621A3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{A7243516-DA49-4D38-88FA-4E83B6C621A3}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{A7243516-DA49-4D38-88FA-4E83B6C621A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7243516-DA49-4D38-88FA-4E83B6C621A3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7243516-DA49-4D38-88FA-4E83B6C621A3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{A7243516-DA49-4D38-88FA-4E83B6C621A3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{A7243516-DA49-4D38-88FA-4E83B6C621A3}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
