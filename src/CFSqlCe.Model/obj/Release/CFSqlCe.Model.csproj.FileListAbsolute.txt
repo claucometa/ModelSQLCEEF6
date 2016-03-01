@@ -1,0 +1,9 @@
+D:\Workspaces\Models\MODEL SQLCE\CFSqlCe.Model\bin\Release\CFSqlCe.Model.dll
+D:\Workspaces\Models\MODEL SQLCE\CFSqlCe.Model\bin\Release\CFSqlCe.Model.pdb
+D:\Workspaces\Models\MODEL SQLCE\CFSqlCe.Model\bin\Release\EntityFramework.dll
+D:\Workspaces\Models\MODEL SQLCE\CFSqlCe.Model\bin\Release\EntityFramework.SqlServer.dll
+D:\Workspaces\Models\MODEL SQLCE\CFSqlCe.Model\bin\Release\EntityFramework.xml
+D:\Workspaces\Models\MODEL SQLCE\CFSqlCe.Model\bin\Release\EntityFramework.SqlServer.xml
+D:\Workspaces\Models\MODEL SQLCE\CFSqlCe.Model\obj\Release\CFSqlCe.Model.csprojResolveAssemblyReference.cache
+D:\Workspaces\Models\MODEL SQLCE\CFSqlCe.Model\obj\Release\CFSqlCe.Model.dll
+D:\Workspaces\Models\MODEL SQLCE\CFSqlCe.Model\obj\Release\CFSqlCe.Model.pdb

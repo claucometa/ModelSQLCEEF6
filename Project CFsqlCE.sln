@@ -3,18 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSqlCe.Domain", "CFSqlCe.Model\CFSqlCe.Domain.csproj", "{5DF32BB8-C3F5-4D72-AF7A-41DECE25511B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSqlCe.Dal", "CFsqlCe.Dal\CFSqlCe.Dal.csproj", "{EB4A49E2-FEB6-4FA9-89D8-F75ECA3299C3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSqlCe.Test", "CFsqlCe.Test\CFSqlCe.Test.csproj", "{DA5C596E-471C-4215-AF92-E1127A113A2C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{98F3A516-FD47-44E6-BBA5-97903A99A4C9}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSqlCe.Domain", "src\CFSqlCe.Model\CFSqlCe.Domain.csproj", "{5DF32BB8-C3F5-4D72-AF7A-41DECE25511B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSqlCe.Dal", "src\CFsqlCe.Dal\CFSqlCe.Dal.csproj", "{EB4A49E2-FEB6-4FA9-89D8-F75ECA3299C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSqlCe.Test", "src\CFsqlCe.Test\CFSqlCe.Test.csproj", "{DA5C596E-471C-4215-AF92-E1127A113A2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
