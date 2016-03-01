@@ -26,3 +26,15 @@ D:\Gits\Models\MODEL SQLCE\Build\CFSqlCe.Test.pdb
 D:\Gits\Models\MODEL SQLCE\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.csprojResolveAssemblyReference.cache
 D:\Gits\Models\MODEL SQLCE\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.exe.manifest
 D:\Gits\Models\MODEL SQLCE\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.application
+D:\Gits\Models\MODEL SQLCE\src\Build\CFSqlCe.Test.exe.config
+D:\Gits\Models\MODEL SQLCE\src\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.exe
+D:\Gits\Models\MODEL SQLCE\src\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.pdb
+D:\Gits\Models\MODEL SQLCE\src\Build\CFSqlCe.Test.exe.manifest
+D:\Gits\Models\MODEL SQLCE\src\Build\CFSqlCe.Test.application
+D:\Gits\Models\MODEL SQLCE\src\Build\CFSqlCe.Test.exe
+D:\Gits\Models\MODEL SQLCE\src\Build\CFSqlCe.Test.pdb
+D:\Gits\Models\MODEL SQLCE\src\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.csprojResolveAssemblyReference.cache
+D:\Gits\Models\MODEL SQLCE\src\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.exe.manifest
+D:\Gits\Models\MODEL SQLCE\src\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.application
+D:\Gits\Models\MODEL SQLCE\src\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.Properties.Resources.resources
+D:\Gits\Models\MODEL SQLCE\src\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.csproj.GenerateResource.Cache
