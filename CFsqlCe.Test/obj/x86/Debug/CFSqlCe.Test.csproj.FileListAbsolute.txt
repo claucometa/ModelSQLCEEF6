@@ -1,0 +1,28 @@
+D:\NETWorkspace\CFSqlCe\Build\CFSqlCe.Test.exe.config
+D:\NETWorkspace\CFSqlCe\Build\CFSqlCe.Test.exe
+D:\NETWorkspace\CFSqlCe\Build\CFSqlCe.Test.pdb
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Test\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.exe
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.pdb
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\Build\CFSqlCe.Test.exe.config
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.exe
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.pdb
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\Build\CFSqlCe.Test.exe
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\Build\CFSqlCe.Test.pdb
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.csprojResolveAssemblyReference.cache
+D:\Workspaces\Models\MODEL SQLCE\Build\CFSqlCe.Test.exe.config
+D:\Workspaces\Models\MODEL SQLCE\Build\CFSqlCe.Test.exe
+D:\Workspaces\Models\MODEL SQLCE\Build\CFSqlCe.Test.pdb
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.csprojResolveAssemblyReference.cache
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.exe
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.pdb
+D:\Gits\Models\MODEL SQLCE\Build\CFSqlCe.Test.exe.config
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.exe
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.pdb
+D:\Gits\Models\MODEL SQLCE\Build\CFSqlCe.Test.exe.manifest
+D:\Gits\Models\MODEL SQLCE\Build\CFSqlCe.Test.application
+D:\Gits\Models\MODEL SQLCE\Build\CFSqlCe.Test.exe
+D:\Gits\Models\MODEL SQLCE\Build\CFSqlCe.Test.pdb
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.csprojResolveAssemblyReference.cache
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.exe.manifest
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Test\obj\x86\Debug\CFSqlCe.Test.application

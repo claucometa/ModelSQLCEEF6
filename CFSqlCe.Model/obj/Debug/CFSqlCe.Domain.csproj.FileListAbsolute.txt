@@ -1,0 +1,13 @@
+D:\Gits\Models\MODEL SQLCE\CFSqlCe.Model\bin\Debug\CFSqlCe.Model.dll
+D:\Gits\Models\MODEL SQLCE\CFSqlCe.Model\bin\Debug\CFSqlCe.Model.pdb
+D:\Gits\Models\MODEL SQLCE\CFSqlCe.Model\bin\Debug\EntityFramework.dll
+D:\Gits\Models\MODEL SQLCE\CFSqlCe.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Gits\Models\MODEL SQLCE\CFSqlCe.Model\bin\Debug\EntityFramework.xml
+D:\Gits\Models\MODEL SQLCE\CFSqlCe.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Gits\Models\MODEL SQLCE\CFSqlCe.Model\obj\Debug\CFSqlCe.Model.dll
+D:\Gits\Models\MODEL SQLCE\CFSqlCe.Model\obj\Debug\CFSqlCe.Model.pdb
+D:\gits\Models\MODEL SQLCE\CFSqlCe.Model\bin\Debug\CFSqlCe.Model.dll.config
+D:\gits\Models\MODEL SQLCE\CFSqlCe.Model\bin\Debug\EntityFramework.SqlServerCompact.dll
+D:\gits\Models\MODEL SQLCE\CFSqlCe.Model\bin\Debug\System.Data.SqlServerCe.dll
+D:\gits\Models\MODEL SQLCE\CFSqlCe.Model\bin\Debug\EntityFramework.SqlServerCompact.xml
+D:\gits\Models\MODEL SQLCE\CFSqlCe.Model\obj\Debug\CFSqlCe.Domain.csprojResolveAssemblyReference.cache

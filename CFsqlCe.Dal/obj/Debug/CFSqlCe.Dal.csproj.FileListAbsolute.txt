@@ -1,0 +1,54 @@
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.dll.config
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.dll
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.pdb
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\bin\Debug\CFSqlCe.Model.dll
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\bin\Debug\EntityFramework.dll
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\bin\Debug\EntityFramework.SqlServer.dll
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\bin\Debug\CFSqlCe.Model.pdb
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\bin\Debug\EntityFramework.xml
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\bin\Debug\EntityFramework.SqlServer.xml
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\obj\Debug\ResolveAssemblyReference.cache
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\obj\Debug\CFSqlCe.Dal.dll
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\obj\Debug\CFSqlCe.Dal.pdb
+D:\NETWorkspace\CFSqlCe\CFsqlCe.Dal\bin\Debug\System.Data.SqlServerCe.dll
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.dll.config
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.dll
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.pdb
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\bin\Debug\CFSqlCe.Model.dll
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\bin\Debug\EntityFramework.dll
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\bin\Debug\EntityFramework.SqlServer.dll
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\bin\Debug\System.Data.SqlServerCe.dll
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\bin\Debug\CFSqlCe.Model.pdb
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\bin\Debug\EntityFramework.xml
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\bin\Debug\EntityFramework.SqlServer.xml
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\obj\Debug\CFSqlCe.Dal.csprojResolveAssemblyReference.cache
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\obj\Debug\CFSqlCe.Dal.dll
+D:\Dados\Desktop\CFSqlCe_Source\CFSqlCe\CFsqlCe.Dal\obj\Debug\CFSqlCe.Dal.pdb
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.dll.config
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.dll
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.pdb
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\CFSqlCe.Model.dll
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\EntityFramework.dll
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\EntityFramework.SqlServer.dll
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\System.Data.SqlServerCe.dll
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\CFSqlCe.Model.pdb
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\EntityFramework.xml
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\EntityFramework.SqlServer.xml
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\obj\Debug\CFSqlCe.Dal.csprojResolveAssemblyReference.cache
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\obj\Debug\CFSqlCe.Dal.dll
+D:\Workspaces\Models\MODEL SQLCE\CFsqlCe.Dal\obj\Debug\CFSqlCe.Dal.pdb
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.dll.config
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.dll
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\CFSqlCe.Dal.pdb
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\CFSqlCe.Model.dll
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\EntityFramework.dll
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\EntityFramework.SqlServer.dll
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\System.Data.SqlServerCe.dll
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\CFSqlCe.Model.pdb
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\EntityFramework.xml
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\EntityFramework.SqlServer.xml
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\obj\Debug\CFSqlCe.Dal.csprojResolveAssemblyReference.cache
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\obj\Debug\CFSqlCe.Dal.dll
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\obj\Debug\CFSqlCe.Dal.pdb
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\EntityFramework.SqlServerCompact.dll
+D:\Gits\Models\MODEL SQLCE\CFsqlCe.Dal\bin\Debug\EntityFramework.SqlServerCompact.xml
