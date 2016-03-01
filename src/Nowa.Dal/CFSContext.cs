@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data.Entity;
-using CFSDDD.Domain.Model.Mapping;
-using CFSDDD.Domain.Model;
+using CFSDDD.Model.Model;
+using CFSDDD.Model.Model.Mapping;
 
 namespace CFSDDD.Dal
 {
@@ -22,12 +22,7 @@ namespace CFSDDD.Dal
         {         
         }
 
-        public DbSet<Exam> Exams { get; set; }
-        public DbSet<Sinonimo> Sinonimos { get; set; }
-        public DbSet<Laudo> Reports { get; set; }
-        public DbSet<Patient> Patients { get; set; }
-        public DbSet<MaleView> MaleView { get; set; }
-        public DbSet<FemaleView> FemaleView { get; set; }
+        public DbSet<Setting> Settings { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -35,14 +30,7 @@ namespace CFSDDD.Dal
             modelBuilder.Conventions.Remove<System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention>();
             // modelBuilder.Properties<string>().Configure(p => p.HasColumnType("varchar"));
 
-            modelBuilder.Configurations.Add(new ExamMap());
-            modelBuilder.Configurations.Add(new SinonimoMap());
-            modelBuilder.Configurations.Add(new LaudoMap());
-            modelBuilder.Configurations.Add(new PatientMap());
-
-            // Views
-            modelBuilder.Configurations.Add(new MaleViewMap());
-            modelBuilder.Configurations.Add(new FemaleViewMap());
+            modelBuilder.Configurations.Add(new SettingMap());
 
             base.OnModelCreating(modelBuilder);
         }
@@ -52,12 +40,7 @@ namespace CFSDDD.Dal
     {
         protected override void Seed(CFSContext context)
         {
-            var exams = CFSDDD.Dal.SeedData.SeedExams(context);
-            context.Exams.AddRange(exams);
-            var sins = CFSDDD.Dal.SeedData.SeedSinonyms(exams, context);
-            context.Sinonimos.AddRange(sins);
-            context.SaveChanges();
-            //base.Seed(context);
+            base.Seed(context);
         }
     }
 }

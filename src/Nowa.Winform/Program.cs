@@ -1,5 +1,6 @@
-﻿using CFSDDD.Winform.Forms;
+﻿using CFSDDD.Dal;
 using System;
+using System.Linq;
 using System.Diagnostics;
 using System.Windows.Forms;
 
@@ -16,7 +17,8 @@ namespace CFSDDD.Winform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
+            var z = MyContext.db.Settings.ToList();
+            MessageBox.Show("Deu certo!");
         }
     }
 

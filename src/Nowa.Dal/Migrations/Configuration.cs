@@ -10,7 +10,7 @@ namespace CFSDDD.Dal.Migrations
         public Configuration()
         {            
             AutomaticMigrationsEnabled = true;
-            //ContextKey = "CFSDDD.Dal.DvdContext";
+            ContextKey = "CFSDDD.Dal.CFSDDDContext";
         }
 
         protected override void Seed(CFSDDD.Dal.CFSContext context)
