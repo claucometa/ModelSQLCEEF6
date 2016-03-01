@@ -3,3 +3,10 @@
 ################################################################################
 
 /packages
+/src/Build
+/src/Nowa.Dal/bin
+/src/Nowa.Dal/bin
+/src/Nowa.Dal/obj
+/src/Nowa.Winform/bin
+/src/Nowa.Winform/obj
+/src/Nowa.Domain/bin
