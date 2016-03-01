@@ -18,15 +18,28 @@ namespace CFSqlCe.Dal
                 db.Database.Initialize(true);
         }
 
-        public DbSet<Sinonimo> Sinonims { get; set; }
+        public CFSContext()
+            : base("Name=AppContext")
+        {
+            var databaseName = Properties.Settings.Default.file;
+            Database.Connection.ConnectionString = string.Format(Database.Connection.ConnectionString,
+                databaseName);
+        }
+
+        public static void SetDataBaseOptions(string file)
+        {
+            Properties.Settings.Default.file = file;
+            Properties.Settings.Default.Save();
+        }
+
+        public DbSet<Setting> Settings { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             // Settings
             modelBuilder.Conventions.Remove<System.Data.Entity.ModelConfiguration.Conventions.PluralizingTableNameConvention>();
-            // modelBuilder.Properties<string>().Configure(p => p.HasColumnType("varchar"));
 
-            modelBuilder.Configurations.Add(new SinonimoMap());
+            modelBuilder.Configurations.Add(new SettingMap());
 
             base.OnModelCreating(modelBuilder);
         }

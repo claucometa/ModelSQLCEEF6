@@ -9,6 +9,5 @@ namespace CFSqlCe.Dal
     public static class MyContext
     {
         public static CFSContext db = new CFSContext();
-
     }
 }

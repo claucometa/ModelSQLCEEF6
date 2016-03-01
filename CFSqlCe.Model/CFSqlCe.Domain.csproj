@@ -70,8 +70,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Mapping\SinonimoMap.cs" />
-    <Compile Include="Model\Sinonimo.cs" />
+    <Compile Include="Model\Mapping\SettingMap.cs" />
+    <Compile Include="Model\Setting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
