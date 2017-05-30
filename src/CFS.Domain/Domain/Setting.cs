@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CFSDDD.Model.Model
+namespace CFSDDD.Core.Domain
 {
     public class Setting
     {

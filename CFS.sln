@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F58F12A2-06FE-49C6-A652-85E1CC376822}"
 	ProjectSection(SolutionItems) = preProject
@@ -14,7 +14,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSDDD.Dal", "src\CFS.Dal\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSDDD.Winform", "src\CFS.Winform\CFSDDD.Winform.csproj", "{DD124CD5-792F-4272-8525-A7AD144FE782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSDDD.Domain", "src\CFS.Domain\CFSDDD.Domain.csproj", "{5DF32BB8-C3F5-4D72-AF7A-41DECE25511B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFSDDD.Core", "src\CFS.Domain\CFSDDD.Core.csproj", "{5DF32BB8-C3F5-4D72-AF7A-41DECE25511B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

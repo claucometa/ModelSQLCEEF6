@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using CFSDDD.Core.Domain;
+using CFSDDD.Dal.Mapping;
 using System.Data.Entity;
-using CFSDDD.Model.Model;
-using CFSDDD.Model.Model.Mapping;
 
 namespace CFSDDD.Dal
 {
@@ -18,6 +14,7 @@ namespace CFSDDD.Dal
         public CFSContext(string nameOrConnectionString)
             : base(nameOrConnectionString)
         {         
+
         }
 
         // Tables

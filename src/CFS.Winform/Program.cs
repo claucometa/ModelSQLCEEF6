@@ -1,9 +1,7 @@
 ﻿using CFSDDD.Dal;
+using CFSDDD.Dal.Repo;
 using System;
-using System.Linq;
-using System.Diagnostics;
 using System.Windows.Forms;
-using CFSDDD.Model.Model;
 
 namespace CFSDDD.Winform
 {
@@ -18,16 +16,13 @@ namespace CFSDDD.Winform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            
-            // Accessing table "directly"
-            var z = MyContext.db.Settings.ToList();
 
-            // Using a CRUD example
-            var repo = new CrudRepo<Setting>();
-            z = repo.GetAll().ToList();
+            using (var x = new UnitOfWork(MainContext.Production))
+            {
+                var k = x.Settings.GetAll();
+            }
 
-
-            MessageBox.Show("Deu certo!\r\n\r\nTabela criada em:\r\n\r\n" + MyContext.db.Database.Connection.ConnectionString);
+            MessageBox.Show("Ok");
         }
     }
 

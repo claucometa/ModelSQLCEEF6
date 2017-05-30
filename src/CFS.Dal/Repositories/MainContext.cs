@@ -1,21 +1,20 @@
 ﻿using System;
 using System.IO;
 
-namespace CFSDDD.Dal
+namespace CFSDDD.Dal.Repo
 {
-    public static class MyContext
-    {
-        public static CFSContext db;
+    public static class MainContext
+    { 
+        public static CFSContext Production;
+        public static CFSContext Mock;
 
-        static MyContext()
+        static MainContext()
         {
-            // Code to create database in APPDATA Folder
             var appdata = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData).ToString();
             appdata += "\\CFSDDD\\Database";
             if (!Directory.Exists(appdata))
                 Directory.CreateDirectory(appdata);
-            db = new CFSContext("Data Source=" + appdata + "\\data.sdf");
+            Production = new CFSContext("Data Source=" + appdata + "\\data.sdf");
         }
-
     }
 }
